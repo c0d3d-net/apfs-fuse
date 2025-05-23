@@ -1,6 +1,3 @@
-
-sudo apt install fuse libfuse3-dev bzip2 libbz2-dev cmake build-essential git libattr1-dev zlib1g-dev
-
 This project is a read-only FUSE driver for the new Apple File System. It also supports software
 encrypted volumes and fusion drives. Firmlinks are not supported yet.
 
@@ -38,7 +35,7 @@ Development tools:
 Example for Linux:
 ```
 sudo apt update
-sudo apt install fuse libfuse3-dev bzip2 libbz2-dev cmake gcc-c++ git libattr1-dev zlib1g-dev
+sudo apt install fuse libfuse3-dev bzip2 libbz2-dev cmake build-essential git libattr1-dev zlib1g-dev
 ```
 Of course these commands depend on the Linux distribution.
 
